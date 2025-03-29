@@ -1,0 +1,92 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f6f6f6;
+    color: #333;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+
+  p{
+    font-size: 1.3em;
+    margin-bottom: 3em;
+  }
+  
+  #buttons {
+    margin: 20px 0;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #4a90e2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: large;
+    margin-bottom: 3em; 
+  }
+  
+  button:hover {
+    background-color: #357ab7;
+  }
+  
+  .chart-container {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 5em;
+  }
+  
+  footer {
+    margin-top: 50px;
+    font-size: 0.7em;
+    color: #777;
+  }
+
+  #rent-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 700px;
+    font-size: 0.95em;
+  }
+  
+  #rent-table th, #rent-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  #rent-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  #rent-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .description-box {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-left: 4px solid #ccc;
+    border-right: 4px solid #ccc;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  button.active {
+    background-color: black; 
+    color: white;
+  }  

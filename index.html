@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boston Housing Inequality</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Analyzing Boston Housing Inequity</h1>
+    <p>A data-driven look at eviction patterns, the legacy of redlining, and demographic and gentrification shifts in Boston.</p>
+  </header>
+
+  <div id="buttons">
+    <button onclick="showChart('eviction')">Eviction</button>
+    <button onclick="showChart('redlining')">Redlining</button>
+    <button onclick="showChart('demographics')">Demographics</button>
+    <button onclick="showChart('gentrification')">Gentrification</button>
+  </div>
+
+  <div class="chart-container">
+    <canvas id="chartCanvas"></canvas>
+  </div>
+
+  <div id="chartDescription" class="description-box"></div>
+
+  <footer>
+    <p>Created by Shreya Thalvayapati | 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
