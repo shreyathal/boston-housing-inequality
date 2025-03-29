@@ -1,6 +1,6 @@
 Boston Housing Inequality Analysis
 
-Time Spent: 2 hours, completed on the Northeast Regional Amtrack from Bos to NYC :) 
+Time Spent: 2 hours, while on the Northeast Regional Amtrack from Bos to NYC :) 
 
 An interactive data storytelling website visualizing historical and present-day housing inequalities in Boston, Massachusetts. This project combines narrative writing with data visualization to explore how redlining, evictions, racial displacement, and gentrification have shaped Boston neighborhoods.
 
